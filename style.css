@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2? family= Edu+SA+Beginner & family= Quicksand:wght@300 & family= Raleway:wght@100 & display=swap');
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgb(248, 236, 170);
+    width: 100%;
+}
+a{ 
+    text-decoration: none;
+}
+
+header ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+header img{
+    width: 200px;
+    border-radius: 70px;
+    display: flex;
+    justify-content: center;
+}
+header ul a{
+    margin: 15px;
+    align-items: center;
+}
+
+header nav{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    width: 100%;
+    align-items: end;
+}
+
+img{ 
+    margin: 10px;
+    width: 150px;
+    border-radius: 70%;
+}
+h1{ 
+    font-size: 24px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+}
+p{ 
+    color: black;
+    font-size: 20px;
+}
+
+.presentacion{
+    background-color: beige;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.presentacion h1{
+    font-size: 20px;
+}
+.presentacion p{
+    width: 70%;
+    font-size: 15px;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#intereses{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#interes h1{
+    display: flex;
+    flex-direction: row;
+}
+#intereses iframe{
+    background-color: rgb(218, 189, 145);
+    width: 100%;
+    padding: 20px;
+    margin: 20px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 5px 2px 5px 2px;
+    background-color: bisque;
+}
+.caja{ 
+    margin: 10px 5px 5px 10px;
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.caja img{ 
+    display: flex;
+    flex-direction: row;
+    width: 150px;
+    height: 150px;
+    border-radius: 20%;
+    background-color: rgb(139, 107, 58);
+}
+.caja p{
+    font-size: 15px;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+}
+.portada{
+    width: 100%px;
+    border-radius: 0px;
+    }
+
+#texto-negro{ 
+    color: black;
+    font-size: medium;
+}
+
+.container-fluid{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    justify-content: center;
+}
+
+.textos{
+    background-color: rgb(180, 169, 134);
+    margin: 0px;
+    padding: auto;
+}
+
+.
